@@ -15,7 +15,7 @@ export function loginApi(data: LoginData): AxiosPromise<LoginResult> {
   formData.append("captchaKey", data.captchaKey || "");
   formData.append("captchaCode", data.captchaCode || "");
   return request({
-    url: "/api/v1/auth/login",
+    url: "/api/v1/auth/login1",
     method: "post",
     data: formData,
     headers: {
