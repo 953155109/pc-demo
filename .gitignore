@@ -13,6 +13,7 @@ dist-ssr
 *.sln
 *.local
 
+.vscode
 package-lock.json
 pnpm-lock.yaml
 stats.html

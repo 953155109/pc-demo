@@ -1,9 +1,9 @@
-import { createApp } from "vue";
+import {createApp} from "vue";
 import App from "./App.vue";
 import router from "@/router";
-import { setupStore } from "@/store";
-import { setupDirective } from "@/directive";
-import { setupElIcons, setupI18n, setupPermission } from "@/plugins";
+import {setupStore} from "@/store";
+import {setupDirective} from "@/directive";
+import {setupElIcons, setupI18n, setupPermission} from "@/plugins";
 
 // 本地SVG图标
 import "virtual:svg-icons-register";
